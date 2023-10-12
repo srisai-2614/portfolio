@@ -1,0 +1,17 @@
+.Container{
+    font-size: medium;
+    color: #000000;
+    background-color: #ffffff;
+    align-content: center;
+    box-shadow: 0 0 10px 0 #ffffff;
+    border-radius: 10%;
+}
+.Container-1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.Image{
+    width: 2em;
+    height: 2em;
+}

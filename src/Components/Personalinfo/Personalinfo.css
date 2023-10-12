@@ -1,0 +1,116 @@
+/* src/PersonalInfo.css */
+.personal-info {
+  min-height: 100%; /* Set a maximum height for the scrollable area */
+  overflow-y: auto; /* Enable vertical scrollbar if content exceeds max height */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+@media (max-width: 768px) {
+  .personal-info{
+    height: 60%;
+  }
+  .greet{
+    font-size: 0.5em;
+  }
+}
+
+.name,
+.address,
+.description .greet .DownArrow{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.greet{
+  transition-delay: 1s;
+
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  letter-spacing: 0.02em;
+  line-height: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.name {
+  width: 50%;
+  transition-delay: 0.5s; /* Delay showing the name after initial load */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    line-height: 174%;
+    letter-spacing: 0.02em;
+    color: rgb(119, 119, 119);
+}
+
+.address {
+  
+  transition-delay: 1s; /* Delay showing the address after the name */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    line-height: 174%;
+    letter-spacing: 0.02em;
+    color: rgb(119, 119, 119);
+}
+/* CSS for the button with gradient hover effect */
+/* CSS for the button with gradient hover effect */
+.button-container {
+  display: inline-flex;
+  align-items: center;
+  padding-left: none;
+}
+a{
+  cursor: none;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000ec; /* Initial background color */
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+
+}
+
+.button:hover {
+  box-shadow: 0 0 3px 0 #ffffff;
+  transform: scale(1.3);
+  cursor: none;
+}
+
+
+.text {
+  font-weight: bold; /* Make the text bold */
+}
+
+.DownArrow{
+  transform: translateY(90px) rotate(10deg);
+    animation: 0.6s cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s 1 normal forwards running iWShcP;
+    will-change: transform;
+    white-space: nowrap;
+    opacity: 0;
+    color: rgb(119, 119, 119);
+}
+
+@keyframes iWShcP {
+
+0% {
+    transform: translateY(90px) rotate(10deg);
+    opacity: 0;
+}
+
+100% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 1;
+}
+}
