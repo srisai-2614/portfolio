@@ -1,4 +1,3 @@
-import Image from '../../Images/target.png'
 import './Skills.css'
 function Skills(props){
   return(
@@ -6,7 +5,7 @@ function Skills(props){
      <div className='Container'>
      <div className='Container-1'>
       <p>{props.name} </p>
-      <img src={props.Image} className='Image'/>
+      <img src={props.Image} alt="SkillImg" className='Image'/>
        </div>
      </div>
     </div>

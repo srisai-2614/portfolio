@@ -3,8 +3,6 @@ import React from 'react';
 import './App.css';
 import Star from './Star/Star';
 import Cursor from './Components/Cursor/Cursor'
-import { useContext } from "react";
-import { MouseContext } from "./context/mouse-context";
 import PersonalInfo from './Components/Personalinfo/Personalinfo';
 import Skills from './Components/Skills/Skills';
 import Projects from './Components/Projects/Projects';
@@ -22,16 +20,13 @@ import linkedin from './Images/linkedin.png';
 import mail from './Images/gmail.png';
 import chatapp from './Images/chatapp.png';
 import leetcode from './Images/leetcode.png';
-
 import memegenerator from './Images/memegenerator.png';
-import notes from './Images/notes.png';
 import tictactoe from './Images/tic-tac-toe.png';
 import weather from './Images/weatherproject.png';
 import gdclone from './Images/docsclone.png';
 
 function App() {
  
-  const {  cursorChangeHandler } = useContext(MouseContext);
   const numStars = 50; 
   const stars = [];
   
@@ -96,7 +91,7 @@ function App() {
             <Projects className='card'  color={"#000000"} title={"Tom vs Jerry Tic-Tac-Toe"} description1={"Play Tic-Tac-Toe with a twist in this cat-and-mouse showdown. Be Jerry, outsmart Tom, and enjoy character-specific messages for an entertaining game,bring the classic rivalry to life in a delightful match."}   description2={""} link={"https://github.com/srisai-2614/tic-tac-toe"} Image={tictactoe}/>
             <Projects className='card' color={"#000000"} title={"Weather Checker"} description1={"Weather Checker web app, developed using React and the OpenWeather API, provides up-to-the-minute weather data for cities across the globe and We can stay informed about weather conditions."}   description2={""} link={"https://github.com/srisai-2614/weatherapp"} Image={weather}/>
             <Projects className='card'  color={"#000000"} title={"Meme Generator"} description1={"Created a React-based meme generator that fetches images from an API consisting more than 100 images,allowing users to add custom text in real-time for instant meme creation"}   description2={""} link={"https://github.com/srisai-2614/memegenerator"} Image={memegenerator}/>
-            <Projects className='card' color={"#000000"} title={"Chat Application"} description1={"Dive into seamless communication with our Chat Application. This user-friendly platform, crafted with React.js, leverages the features of the Chat Engine.io API for a robust chat experience."} link={"https://github.com/srisai-2614/frontend"}   description2={""} Image={chatapp}/>
+            <Projects className='card' color={"#000000"} title={"Sorting Visualizer"} description1={"The Sorting Visualizer project is an interactive web application that visually demonstrates various sorting algorithms in real-time. Users can choose from algorithms and can observe the sorting process through a dynamic graphical representation."} link={"https://github.com/srisai-2614/Sorting-Visualizer"}   description2={""} Image={chatapp}/>
 
 
            

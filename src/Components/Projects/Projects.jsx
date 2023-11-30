@@ -1,14 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom";
 import "./Projects.css";
 import GitIcon from "../../Images/giticon.png"
 const Projects = (props) => {
-  Image=props.Image
     return(
   <div className="card" style={{backgroundImage:`url(${props.Image})`}}>
     <div className="card-content">
       <h2 className="card-title" style={{color:'#000',fontFamily:'Times New Roman, serif'}}>{props.title}</h2>
-      <p className="card-body" style={{color:`${props.color}`,fontFamily:'Dancing Script'}}>
+      <p className="card-body" style={{color:`${props.color}`,fontFamily:'Dancing Script',fontSize:'1em'}}>
         {props.description1}
       </p>
       <p>{props.description2}</p>

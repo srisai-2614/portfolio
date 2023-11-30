@@ -18,12 +18,12 @@
   
   .card:hover,
   .card:focus-within {
-    transform: scale(1.05);
+    transform: scale(1.08);
   }
   
   .card-content {
     --padding: 1.5rem;
-    height: max-content;
+    height: 95%;
     padding: var(--padding);
     background: rgb(228,227,241);
 }
@@ -45,7 +45,7 @@
     height: 4px;
     width: calc(100% + var(--padding));
     left: calc(var(--padding) * -1);
-    bottom: -2px;
+    bottom: -1px;
     transform-origin: left;
     transition: transform 500ms ease;
   }
@@ -114,4 +114,3 @@
       transition-delay: 0ms !important;
     }
   }
-  

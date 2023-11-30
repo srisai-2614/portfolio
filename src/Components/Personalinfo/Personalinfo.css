@@ -9,12 +9,18 @@
   text-align: center;
   
 }
-@media (max-width: 768px) {
+@media (max-width:768px) {
   .personal-info{
     height: 60%;
   }
   .greet{
-    font-size: 0.5em;
+    font-size: 2000%;
+  }
+  .name{
+    width: 70%;
+  }
+  .name p{
+    font-size:4.5vw;
   }
 }
 

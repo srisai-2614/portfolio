@@ -2,10 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './Personalinfo.css'; // Import your CSS file
 import resume from '../../Images/MyResume.pdf';
 import Icon from '@mdi/react';
-import Button from '@mui/material/Button';
-
-import Stack from '@mui/material/Stack';
-
 import { mdiFileDownload } from '@mdi/js';
 
 
