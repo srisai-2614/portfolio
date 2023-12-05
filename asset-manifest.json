@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a87711f8.css",
-    "main.js": "/portfolio/static/js/main.73ee08f0.js",
+    "main.js": "/portfolio/static/js/main.041b3679.js",
     "static/media/BloodBuddy.png": "/portfolio/static/media/BloodBuddy.5859d201f26b9aa2f894.png",
     "static/media/Resume_PavanSriSai.pdf": "/portfolio/static/media/Resume_PavanSriSai.f4af18df7fd338a7f12c.pdf",
     "static/media/chatapp.png": "/portfolio/static/media/chatapp.13a96a97699894c8cdd5.png",
@@ -22,10 +22,10 @@
     "static/media/giticon.png": "/portfolio/static/media/giticon.6793dce64fa76a5667be.png",
     "index.html": "/portfolio/index.html",
     "main.a87711f8.css.map": "/portfolio/static/css/main.a87711f8.css.map",
-    "main.73ee08f0.js.map": "/portfolio/static/js/main.73ee08f0.js.map"
+    "main.041b3679.js.map": "/portfolio/static/js/main.041b3679.js.map"
   },
   "entrypoints": [
     "static/css/main.a87711f8.css",
-    "static/js/main.73ee08f0.js"
+    "static/js/main.041b3679.js"
   ]
 }
