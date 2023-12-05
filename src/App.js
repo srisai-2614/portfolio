@@ -110,7 +110,7 @@ function App() {
             
             <Contact  image={mail} text={""}/>
             
-            <Contact link={"https://leetcode.com/pavansrisai22447/"} image={leetcode} text={""}/>
+            <Contact link={"https://leetcode.com/srisaiakula/"} image={leetcode} text={""}/>
           </div>
           </div>
         
