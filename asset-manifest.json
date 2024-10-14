@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a87711f8.css",
-    "main.js": "/portfolio/static/js/main.041b3679.js",
+    "main.js": "/portfolio/static/js/main.e8ebe6d1.js",
     "static/media/BloodBuddy.png": "/portfolio/static/media/BloodBuddy.5859d201f26b9aa2f894.png",
-    "static/media/Resume_PavanSriSai.pdf": "/portfolio/static/media/Resume_PavanSriSai.f4af18df7fd338a7f12c.pdf",
     "static/media/chatapp.png": "/portfolio/static/media/chatapp.13a96a97699894c8cdd5.png",
     "static/media/weatherproject.png": "/portfolio/static/media/weatherproject.c2ade400da99420bbe9f.png",
+    "static/media/Resume_PavanSriSai.pdf": "/portfolio/static/media/Resume_PavanSriSai.71d288c9658a7c58db99.pdf",
     "static/media/tic-tac-toe.png": "/portfolio/static/media/tic-tac-toe.0fe821e0df3604d7a8a5.png",
     "static/media/mongodbicon.png": "/portfolio/static/media/mongodbicon.9fb9b3d1d58ca685ddc2.png",
     "static/media/githubicon.png": "/portfolio/static/media/githubicon.7c68fa75ccd10b313935.png",
@@ -22,10 +22,10 @@
     "static/media/giticon.png": "/portfolio/static/media/giticon.6793dce64fa76a5667be.png",
     "index.html": "/portfolio/index.html",
     "main.a87711f8.css.map": "/portfolio/static/css/main.a87711f8.css.map",
-    "main.041b3679.js.map": "/portfolio/static/js/main.041b3679.js.map"
+    "main.e8ebe6d1.js.map": "/portfolio/static/js/main.e8ebe6d1.js.map"
   },
   "entrypoints": [
     "static/css/main.a87711f8.css",
-    "static/js/main.041b3679.js"
+    "static/js/main.e8ebe6d1.js"
   ]
 }
