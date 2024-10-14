@@ -7,7 +7,7 @@
 @media (max-width:768px) {
     .Image{
         flex: 0 0 auto;
-    margin-right: 1em; /* Add some space between icons */
+    margin-right: 1em; 
     min-width: 2em;
     }
 }
